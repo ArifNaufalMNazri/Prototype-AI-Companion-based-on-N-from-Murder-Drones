@@ -87,4 +87,39 @@ After designing the 'Brain' of N and directing my speech prompts to the ai, I fi
 
 *Disclaimer 2: My microhpone quality was pretty bad. Instead of 'What's the mass of the sun', it detected 'is the math of son'.*
 
-With processing completed, there was only one thing left to do: **Text-To-Speech**
+With processing completed, there was only one thing left to do: **Response**
+
+## Response
+To give N his voice, I used a **Inworld**, an website that allows me to generate text from speech. I used a pregenerated voice called **'young robot'** because I didn't want to steal **Micahel Kovach's**--the voice actor of N--work. 
+<p align = "center">
+  <img src = "./Media/InWorldImage.png">
+</p>
+
+I also made it take prompts only after I say **'Hello' or 'Hey'** to prevent it from taking background noises as prompts
+
+*Side-note: I have lots of pregenerated messages for N in the 'Preset Messages' folder. You can listen to them by going on this [link](https://github.com/ArifNaufalMNazri/Prototype-AI-Companion-based-on-N-from-Murder-Drones/tree/main/Preset%20Messages)*
+
+And on that note, the project was **completed!**
+<p align = "center">
+  <img src = "./Media/SuccessImage.jpeg" height = 400 width = 800>
+</p>
+
+# Final Results
+<p align = "center">
+  <img src = "./Media/FinalNGIF.gif">
+</p>
+
+It can see me, it can follow me, and most of all, it can **listen and talk back to me!**(Until I run out of tokens, which I have for now)
+
+## Problems
+There are still a couple of problems with N:
+- Limited tokens means I've got to wait a long while to talk to him
+- Poor microphone quality means N mishears some words, even if I upgrade the model
+
+### Solutions 
+- I'm thinking of porting him to a **raspberry pi** to make him a robot and so I can load the **ollama ai model** to use instead of relying on tokens
+- I want to use a different **voice detection model** so, again, I don't rely on tokens
+- I want to get a **better microphone** so N can hear me better
+
+## Parting thoughts
+This was my first real delve into programming something with **AI**. I may have used **Gemini AI** to help code some of the models, but I'm glad to have learned so much about it. Maybe one day I'll make another, better one. One with better hardware and entirely my own code; maybe I'll come back and upgrade this one. Either way, that's a challenge for **Future Me**.
